@@ -1,0 +1,380 @@
+*{
+  font-family: 'Exo', sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #1A263D;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15px;
+  height: 70px;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo-text{
+  color: #FFE160;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.advert{
+  background-color: #1A263D;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.advert-text
+{
+  color: white;
+}
+
+.large-text{
+  font-size: 30px;
+}
+
+.studying-image
+{
+  font-size: 270px !important;
+  color: #FFE160;
+  transform: rotate(30deg);
+  margin-right: 50px;
+  margin-top: 25px;
+}
+
+.sections{
+  margin-top: 20px;
+}
+
+.title-text{
+  color:#1A263D;
+  margin-left: 20px;
+}
+
+.section-cont{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  height: 240px;
+  display: flex;
+  flex-direction: row;
+}
+
+.section{
+  height: 200px;
+  width: 130px;
+  min-width: 130px;
+  border-radius: 10px;
+  background-color: #1A263D;
+  margin-right: 20px;
+}
+
+.button-cont{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+  background-color: #1A263D;
+  color: #FFE160;
+  height: 40px;
+  width: 170px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 3px solid #1A263D;
+  transition: 0.5s;
+}
+
+.button:hover{
+  font-weight: 900;
+  border: 3px solid #FFE160;
+  transition: 0.5s;
+}
+
+footer{
+  margin-top: 30px;
+  height: 70px;
+  background-color: #1A263D;
+  width: 100%;
+}
+
+.cont{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 65.8vh;
+}
+
+.extra-space-cont{
+  flex-grow: 1;
+}
+
+.return-cont{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #1A263D;
+  margin-left: 20px;
+  transition: 0.5s;
+}
+
+.return-cont:hover{
+  padding-left: 20px;
+  transition: 0.5s;
+}
+
+.return-text{
+ margin-left: 5px; 
+ margin-top: 2px;
+}
+
+.return-arrow{
+  font-size: 28px !important;
+  font-weight: 100;
+}
+
+.section-selection-label{
+  color: #1A263D;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.3s;
+}
+
+.section-selection-label:hover{
+  margin-left: 8px;
+  transition: 0.3s;
+}
+
+.section-selection-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #1A263D;
+  border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.section-selection-label:hover input ~ .checkmark {
+  background-color: #131d2e;
+}
+
+/* When the checkbox is checked, add a blue background */
+.section-selection-label input:checked ~ .checkmark {
+  background-color: #1A263D;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.section-selection-label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.section-selection-label .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #FFE160;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.color{
+  color: #1A263D;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-weight: 900;
+}
+
+.section-selection-cont{
+  width: 40%;
+  margin: auto;
+  border: 2px solid #1A263D;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.margin-bottom{
+  margin-bottom: 20px;
+}
+
+hr{
+  width: 70%;
+  height: 1px;
+  margin-bottom: 20px;
+  background-color: #1A263D;
+  border: none;
+}
+
+.test-page-h1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  background-color: #1A263D;
+  color: #FFE160;
+  border-top: 3px solid #FFE160;
+  border-bottom: 3px solid #FFE160;
+}
+
+.q-div{
+  margin: auto;
+  margin-top: 10px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  /*border: 1px solid black;*/
+}
+
+.qhead{
+  color: #FFE160;
+  background-color: #1A263D;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid #FFE160;
+}
+
+.q-label{
+  display: flex;
+  flex-direction: row;
+  font-weight: 900;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
+
+.q-label > input[type='radio']{
+  margin-right: 6px;
+  margin-left: 17px;
+}
+
+#radio{
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #1A263D;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+
+#radio:checked{
+  border: 6px solid #FFE160;
+}
+
+@media (max-width: 800px) {
+  .studying-image {
+    display: none;
+  }
+
+  .advert
+  {
+    justify-content: center;
+  }
+
+  .section-selection-cont{
+    width: 90%;
+  }
+
+  .margin-bottom{
+    text-align: center;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1A263D;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #131d2e;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
