@@ -1,4 +1,4 @@
-import './App.css'
+import '../App.css'
 export function Question(props){
     return(
         <div className='q-div'>

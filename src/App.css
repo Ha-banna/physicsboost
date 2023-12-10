@@ -83,6 +83,27 @@ header {
   border-radius: 10px;
   background-color: #1A263D;
   margin-right: 20px;
+  padding: 5px;
+  transition: 0.3s;
+}
+
+.section:hover{
+  box-shadow: 0 0 10px 5px #FFE160;
+  transition: 0.3s;
+}
+
+.section > h6{
+  color: #FFE160;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.section > h3{
+  color: #FFE160;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 35px;
 }
 
 .button-cont{

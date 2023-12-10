@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import './App.css';
+import '../App.css';
+import { Section } from './Section';
 
 export function Sections()
 {
@@ -9,11 +10,7 @@ export function Sections()
                 Course Sections:
             </h1>
             <div className='section-cont'>
-                <Link to={'/section'}>
-                    <div className='section'>
-
-                    </div>
-                </Link>
+                <Section num={1}></Section>
             </div>
 
             

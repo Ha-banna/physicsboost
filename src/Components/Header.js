@@ -1,5 +1,5 @@
-import './App.css';
-import logonobg from './logo-nobg.png';
+import '../App.css';
+import logonobg from '../logo-nobg.png';
 
 export function Header ()
 {

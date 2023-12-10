@@ -1,11 +1,11 @@
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { Footer } from './Footer';
-import { Header } from './Header';
-import { Main } from './Main';
-import { Sec } from './Sec';
-import { Test } from './Test';
-import { TestPage } from './TestPage';
+import { Footer } from './Components/Footer';
+import { Header } from './Components/Header';
+import { Main } from './Pages/Main';
+import { Sec } from './Pages/Sec';
+import { Test } from './Pages/Test';
+import { TestPage } from './Pages/TestPage';
 
 function App() {
   return (

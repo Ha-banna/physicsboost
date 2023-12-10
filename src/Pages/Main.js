@@ -1,6 +1,6 @@
-import './App.css'
-import { Advert } from './Advert';
-import { Sections } from './Sections';
+import '../App.css'
+import { Advert } from '../Components/Advert';
+import { Sections } from '../Components/Sections';
 
 export function Main (){
     return(

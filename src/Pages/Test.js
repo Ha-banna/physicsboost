@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import './App.css'
-import { Return } from './Return';
+import '../App.css'
+import { Return } from '../Components/Return';
 
 export function Test(){
     return(

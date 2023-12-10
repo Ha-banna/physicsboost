@@ -1,5 +1,5 @@
-import './App.css'
-import { Return } from './Return';
+import '../App.css'
+import { Return } from '../Components/Return';
 
 export function Sec(){
     return (
