@@ -82,6 +82,7 @@ header {
   min-width: 130px;
   border-radius: 10px;
   background-color: #1A263D;
+  margin-top: 10px;
   margin-right: 20px;
   padding: 5px;
   transition: 0.3s;
@@ -89,6 +90,9 @@ header {
 
 .section:hover{
   box-shadow: 0 0 10px 5px #FFE160;
+  transform: rotate(8deg) scale(1.07);
+  margin-right: 28px;
+  margin-left: 8px;
   transition: 0.3s;
 }
 
@@ -131,8 +135,8 @@ header {
 
 footer{
   margin-top: 30px;
-  height: 70px;
-  background-color: #1A263D;
+  height: 40px/*70px*/;
+  /*background-color: #1A263D;*/
   width: 100%;
 }
 

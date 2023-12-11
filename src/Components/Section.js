@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export function Section(props){
     return(
-        <Link to={'/section'}>
+        <Link to={`/section?id=${props.num}`}>
             <div className='section'>
                 <h6>Section</h6>
                 <h3>{props.num}</h3>

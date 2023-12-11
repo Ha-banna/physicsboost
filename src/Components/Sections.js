@@ -11,6 +11,13 @@ export function Sections()
             </h1>
             <div className='section-cont'>
                 <Section num={1}></Section>
+                <Section num={2}></Section>
+                <Section num={3}></Section>
+                <Section num={4}></Section>
+                <Section num={5}></Section>
+                <Section num={6}></Section>
+                <Section num={7}></Section>
+                <Section num={8}></Section>
             </div>
 
             
